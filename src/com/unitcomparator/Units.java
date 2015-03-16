@@ -5,5 +5,5 @@ package com.unitcomparator;
  */
 
 public enum Units {
-    Feet, Inch, Centimeter
+    Feet, Inch, GALLON, LITRE, CUBIC_METER, Centimeter
 }
