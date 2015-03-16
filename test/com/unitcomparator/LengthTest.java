@@ -32,7 +32,7 @@ public class LengthTest {
     }
 
     @Test
-    public void test_length_cannt_be_creted_with_gallon(){
+    public void test_length_cant_be_created_with_gallon(){
         Length gallon =Length.createLength(1, Units.GALLON);
        assertNull(gallon);
     }

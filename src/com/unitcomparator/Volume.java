@@ -9,11 +9,11 @@ import java.util.Map;
 public class Volume extends ScalarUnits {
     private double value;
     private Units unit;
-    private static final Map<Units,Double> conversionFactor =new HashMap<Units, Double>();
+    private static final Map<Units,Double> litreConversionFactor =new HashMap<Units, Double>();
     static {
-        conversionFactor.put(Units.GALLON,3.78);
-        conversionFactor.put(Units.LITRE,1.0);
-        conversionFactor.put(Units.CUBIC_METER,1000d);
+        litreConversionFactor.put(Units.GALLON, 3.78);
+        litreConversionFactor.put(Units.LITRE, 1.0);
+        litreConversionFactor.put(Units.CUBIC_METER, 1000d);
     }
     public Volume(double value, Units unit) {
         this.value = value;
@@ -21,7 +21,7 @@ public class Volume extends ScalarUnits {
     }
 
      double normalizeValue(){
-        return  value*conversionFactor.get(unit);
+        return  value* litreConversionFactor.get(unit);
     }
 
 }
