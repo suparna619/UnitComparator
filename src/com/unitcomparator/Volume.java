@@ -6,36 +6,22 @@ import java.util.Map;
 /**
  * Created by suparnad on 3/16/2015.
  */
-public class Volume {
-
-    private static final double PRICISION = 0.2;
+public class Volume extends Units {
     private double value;
-    private Units unit;
-    private static final Map<Units,Double> conversionFactor =new HashMap<Units, Double>();
+    private UnitsStorage unit;
+    private static final Map<UnitsStorage,Double> conversionFactor =new HashMap<UnitsStorage, Double>();
     static {
-        conversionFactor.put(Units.GALLON,3.78);
-        conversionFactor.put(Units.LITRE,1.0);
-        conversionFactor.put(Units.CUBIC_METER,1000d);
+        conversionFactor.put(UnitsStorage.GALLON,3.78);
+        conversionFactor.put(UnitsStorage.LITRE,1.0);
+        conversionFactor.put(UnitsStorage.CUBIC_METER,1000d);
     }
-    public Volume(double value, Units unit) {
+    public Volume(double value, UnitsStorage unit) {
         this.value = value;
         this.unit = unit;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Volume volume = (Volume) o;
-        return Math.abs(normalizeValue() - volume.normalizeValue())<= PRICISION;
-    }
-    private  double normalizeValue(){
+     double normalizeValue(){
         return  value*conversionFactor.get(unit);
     }
-    @Override
-    public int hashCode() {
-        long temp = Double.doubleToLongBits(value);
-        return (int) (temp ^ (temp >>> 32));
-    }
+
 }
