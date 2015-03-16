@@ -11,16 +11,16 @@ import static org.junit.Assert.assertTrue;
 public class VolumeTest {
     @Test
     public void test_1_gallon_equals_with_3p78_litters() {
-        Volume g = new Volume(1, UnitsStorage.GALLON);
-        Volume li = new Volume(3.78, UnitsStorage.LITRE);
+        Volume g = new Volume(1, Units.GALLON);
+        Volume li = new Volume(3.78, Units.LITRE);
         assertTrue(g.equals(li));
         assertTrue(li.equals(g));
     }
 
     @Test
     public void test_1_gallon_equals_with_0p003785_cubic_meters() {
-        Volume g = new Volume(1, UnitsStorage.GALLON);
-        Volume cu_m = new Volume(0.0037, UnitsStorage.CUBIC_METER);
+        Volume g = new Volume(1, Units.GALLON);
+        Volume cu_m = new Volume(0.0037, Units.CUBIC_METER);
         assertTrue(g.equals(cu_m));
         assertTrue(cu_m.equals(g));
     }

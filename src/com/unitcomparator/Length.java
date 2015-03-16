@@ -6,26 +6,26 @@ import java.util.Map;
 /**
  * Created by suparnad on 3/16/2015.
  */
-public class Length extends Units {
+public class Length extends ScalarUnits {
     private enum lengthUnit{
         CENTIMETER,FEET, INCH
     }
-    private static Map<UnitsStorage,Double> cmConversionFactor =new HashMap<UnitsStorage, Double>();
+    private static Map<Units,Double> cmConversionFactor =new HashMap<Units, Double>();
     private double value;
-    private UnitsStorage unit;
+    private Units unit;
     static {
-        cmConversionFactor.put(UnitsStorage.FEET, 30.48);
-        cmConversionFactor.put(UnitsStorage.INCH, 2.54);
-        cmConversionFactor.put(UnitsStorage.CENTIMETER, 1.0);
+        cmConversionFactor.put(Units.FEET, 30.48);
+        cmConversionFactor.put(Units.INCH, 2.54);
+        cmConversionFactor.put(Units.CENTIMETER, 1.0);
     }
 
 
 
-    private Length(double value, UnitsStorage unit) {
+    private Length(double value, Units unit) {
         this.value = value;
         this.unit =unit;
     }
-    public static Length createLength(double value,UnitsStorage unit){
+    public static Length createLength(double value,Units unit){
         for(lengthUnit u :lengthUnit.values()){
             if(u.toString().equals(unit.toString())){
                return  new Length(value,unit);

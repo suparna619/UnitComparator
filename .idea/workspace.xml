@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78688c4a-aa69-45b2-922e-30334db79bd9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/unitcomparator/IllegalUnitException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/unitcomparator/UnitsStorage.java" />
-      <change type="DELETED" beforePath="D:\javaworkSpace\UnitComparator\out\production\UnitComparator\com\unitcomparator\UnitComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\javaworkSpace\UnitComparator\out\test\UnitComparator\com\unitcomparator\UnitComparatorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\javaworkSpace\UnitComparator\src\com\unitcomparator\UnitComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\javaworkSpace\UnitComparator\test\com\unitcomparator\UnitComparatorTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UnitComparator/com/unitcomparator/Length.class" afterPath="$PROJECT_DIR$/out/production/UnitComparator/com/unitcomparator/Length.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/UnitComparator/com/unitcomparator/LengthTest.class" afterPath="$PROJECT_DIR$/out/test/UnitComparator/com/unitcomparator/LengthTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UnitComparator/com/unitcomparator/Units.class" afterPath="$PROJECT_DIR$/out/production/UnitComparator/com/unitcomparator/Units.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UnitComparator/com/unitcomparator/Volume.class" afterPath="$PROJECT_DIR$/out/production/UnitComparator/com/unitcomparator/Volume.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/unitcomparator/Length.java" afterPath="$PROJECT_DIR$/src/com/unitcomparator/Length.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/unitcomparator/LengthTest.java" afterPath="$PROJECT_DIR$/test/com/unitcomparator/LengthTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/unitcomparator/Units.java" afterPath="$PROJECT_DIR$/src/com/unitcomparator/Units.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/unitcomparator/Volume.java" afterPath="$PROJECT_DIR$/src/com/unitcomparator/Volume.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/unitcomparator/VolumeTest.java" afterPath="$PROJECT_DIR$/test/com/unitcomparator/VolumeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\javaworkSpace\UnitComparator\src\com\unitcomparator\Units.java" afterPath="$PROJECT_DIR$/src/com/unitcomparator/ScalarUnits.java" />
+      <change type="MOVED" beforePath="D:\javaworkSpace\UnitComparator\src\com\unitcomparator\UnitsStorage.java" afterPath="$PROJECT_DIR$/src/com/unitcomparator/Units.java" />
     </list>
     <ignored path="UnitComparator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,21 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UnitsStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/UnitsStorage.java">
+      <file leaf-file-name="Units.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/Units.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.18092105" vertical-offset="0" max-vertical-offset="608">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Units.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/Units.java">
+      <file leaf-file-name="ScalarUnits.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/ScalarUnits.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -66,12 +57,12 @@
         <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/Length.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#299#321#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#298#313#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/Volume.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="682">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,19 +104,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IllegalUnitException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/IllegalUnitException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-              <folding>
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -140,7 +118,6 @@
         <option value="$PROJECT_DIR$/test/com/unitcomparator/UnitStoreTest.java" />
         <option value="$PROJECT_DIR$/src/com/unitcomparator/UnitComparator.java" />
         <option value="$PROJECT_DIR$/src/com/unitcomparator/scalerUnits.java" />
-        <option value="$PROJECT_DIR$/src/com/unitcomparator/ScalerUnits.java" />
         <option value="$PROJECT_DIR$/src/com/unitcomparator/UnitStore.java" />
         <option value="$PROJECT_DIR$/src/com/unitcomparator/Volume.java" />
         <option value="$PROJECT_DIR$/test/com/unitcomparator/VolumeTest.java" />
@@ -148,8 +125,9 @@
         <option value="$PROJECT_DIR$/src/com/unitcomparator/IllegalUnitException.java" />
         <option value="$PROJECT_DIR$/src/com/unitcomparator/Length.java" />
         <option value="$PROJECT_DIR$/test/com/unitcomparator/LengthTest.java" />
-        <option value="$PROJECT_DIR$/src/com/unitcomparator/UnitsStorage.java" />
+        <option value="$PROJECT_DIR$/src/com/unitcomparator/ScalerUnits.java" />
         <option value="$PROJECT_DIR$/src/com/unitcomparator/ScalarUnits.java" />
+        <option value="$PROJECT_DIR$/src/com/unitcomparator/UnitsStorage.java" />
         <option value="$PROJECT_DIR$/src/com/unitcomparator/Units.java" />
       </list>
     </option>
@@ -591,7 +569,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3191824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3191824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16178624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -641,7 +619,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/UnitsStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/Units.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -655,9 +633,9 @@
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#299#321#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#298#313#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -720,41 +698,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/UnitsStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/Volume.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="682">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/Length.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#299#321#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#298#313#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/Volume.java">
+    <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/ScalarUnits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="682">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/unitcomparator/Units.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18092105" vertical-offset="0" max-vertical-offset="608">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

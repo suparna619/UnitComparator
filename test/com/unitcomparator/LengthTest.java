@@ -12,28 +12,28 @@ import static org.junit.Assert.assertTrue;
 public class LengthTest {
     @Test
     public void test_one_feet_is_equal_12_inches() {
-        Length feet =Length.createLength(1, UnitsStorage.FEET);
-        Length inch =Length.createLength(12, UnitsStorage.INCH);
+        Length feet =Length.createLength(1, Units.FEET);
+        Length inch =Length.createLength(12, Units.INCH);
         assertTrue(feet.equals(inch));
     }
 
     @Test
     public void test_one_feet_is_not_equal_10_inches() {
-        Length feet =Length.createLength(1, UnitsStorage.FEET);
-        Length inch =Length.createLength(10, UnitsStorage.INCH);
+        Length feet =Length.createLength(1, Units.FEET);
+        Length inch =Length.createLength(10, Units.INCH);
         assertFalse(feet.equals(inch));
     }
 
     @Test
     public void test_one_feet_is_equal_0p4_centimeters() {
-        Length feet =Length.createLength(1, UnitsStorage.FEET);
-        Length centimeter =Length.createLength(30.48, UnitsStorage.CENTIMETER);
+        Length feet =Length.createLength(1, Units.FEET);
+        Length centimeter =Length.createLength(30.48, Units.CENTIMETER);
         assertTrue(feet.equals(centimeter));
     }
 
     @Test
     public void test_length_cannt_be_creted_with_gallon(){
-        Length gallon =Length.createLength(1, UnitsStorage.GALLON);
+        Length gallon =Length.createLength(1, Units.GALLON);
        assertNull(gallon);
     }
 }
