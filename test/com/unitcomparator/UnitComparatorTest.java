@@ -23,7 +23,7 @@ public class UnitComparatorTest {
 
     @Test
     public void test_getFactor_return_inchConversionfactor_for_unit_in_cntimeter() {
-        double d = UnitComparator.getFactor(Units.Centimeter) ;
+        double d = UnitComparator.getFactor(Units.CENTIMETER) ;
         assertEquals(d,0.3937,0.0);
     }
 }

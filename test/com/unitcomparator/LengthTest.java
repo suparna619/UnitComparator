@@ -26,7 +26,7 @@ public class LengthTest {
     @Test
     public void test_one_feet_is_equal_0p4_centimeters() {
         Length feet = new Length(1, Units.Feet);
-        Length centimeter = new Length(30.48, Units.Centimeter);
+        Length centimeter = new Length(30.48, Units.CENTIMETER);
         assertTrue(feet.equals(centimeter));
     }
 }
