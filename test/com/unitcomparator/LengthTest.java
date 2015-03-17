@@ -36,4 +36,12 @@ public class LengthTest {
         Length gallon =Length.createLength(1, Units.GALLON);
        assertNull(gallon);
     }
+
+    @Test
+    public void test_one_feet_Plus_1feet_2_feet() {
+        Length feet =Length.createLength(1, Units.FEET);
+        Length twoFeet =Length.createLength(2, Units.FEET);
+        Length actual =feet.add(feet, Units.INCH);
+        assertTrue(twoFeet.equals(actual));
+    }
 }
